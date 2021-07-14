@@ -34,6 +34,7 @@
     background: #276678;
     color: #fff;
     text-decoration: line-through;
+    font-weight: bolder;
   }
   
   ul li.checked::before {
@@ -57,7 +58,7 @@
   }
   
   .close:hover {
-    background-color: #f78501;
+    background-color: #00a1e2;
     color: white;
   
   }
