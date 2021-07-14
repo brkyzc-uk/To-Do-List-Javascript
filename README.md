@@ -15,7 +15,7 @@
 
 ### Home Page
 
-![Homepage](https://github.com/brkyzc-uk/Piano-Notes/blob/main/todolist.png)
+![Homepage](https://github.com/brkyzc-uk/To-Do-List-Javascript/blob/master/todolist.png)
 
 
 
