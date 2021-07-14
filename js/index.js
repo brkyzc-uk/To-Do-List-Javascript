@@ -1,0 +1,26 @@
+function newElement(){
+    var li = document.createElement("li")
+    var inputValue = document.getElementById("task").value
+    var task = document.createTextNode(inputValue)
+    li.append(task)
+    if (inputValue === "" || inputValue.replace(/^\s+|\s+$/g, "").length == 0) {
+        $(".error").toast("show");
+      } else {
+        $(".success").toast("show");
+        document.getElementById("list").appendChild(li);
+      }
+      document.getElementById("task").value = "";
+
+      var span = document.createElement("SPAN");
+      var txt = document.createTextNode("\u00D7");
+      span.className = "close";
+      span.appendChild(txt);
+      li.appendChild(span);
+    
+      for (i = 0; i < close.length; i++) {
+        close[i].onclick = function () {
+          var div = this.parentElement;
+          div.style.display = "none";
+        };
+      }
+    }
